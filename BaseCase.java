@@ -134,8 +134,8 @@ public class BaseCase extends BaseClass {
         }
 
         private void detection7() {
-            locRef1.ref = null;
-            locRef1.ref = null;
+            locRef1.ref = locRef1.ref;
+            locRef1.ref = locRef1.ref;
         }
 
         private void innerMethod() {
